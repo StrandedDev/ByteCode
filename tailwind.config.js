@@ -10,12 +10,13 @@ module.exports = {
           '0%': {
             '-webkit-transform': 'translateY(50px)',
             'transform': 'translateY(50px)',
-            'opacity': '0'
+            'opacity': '0',
           },
           '100%': {
             '-webkit-transform': 'translateY(0)',
             'transform': 'translateY(0)',
-            'opacity': '1'
+            'opacity': '1',
+            // 'z-index': '-1'
           }
         }
       },
