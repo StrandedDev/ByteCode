@@ -1,5 +1,8 @@
 module.exports = {
-  content: ['*'],
+  content: [
+    './index.html',
+    './components/**/*.{html,js}',
+  ],
   theme: {
     extend: {
       animation: {
@@ -16,7 +19,6 @@ module.exports = {
             '-webkit-transform': 'translateY(0)',
             'transform': 'translateY(0)',
             'opacity': '1',
-            // 'z-index': '-1'
           }
         }
       },
